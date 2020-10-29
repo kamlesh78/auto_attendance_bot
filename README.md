@@ -8,7 +8,7 @@ This batch script will create python virtual environment in the root directory i
 It will also install selenium lib by activating the virtual environment
 
 
-run.bat: 
+run.bat :                                                                                                                                                                
 This batch script will automate all the process of activating virtual environment and running the python scrip from your Desktop.
 
 
