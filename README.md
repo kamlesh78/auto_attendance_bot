@@ -15,8 +15,12 @@ This batch script will automate all the process of activating virtual environmen
 autoattendance.py : python script to mark your attendace in gehu moddle.
 
 Note: You need to download webdriver for the web browser you are using and copy the web driver to `C:\driver\` directory(create directory driver in C:\ driver if not exist already).
+
+
           * Download Firefox webdriver from https://github.com/mozilla/geckodriver/releases 
+          
           * Download Chrome webdriver from https://chromedriver.chromium.org/downloads
+          
           *** similarly you can download webdriver for your web browser supprorted by selenium***
           
          
