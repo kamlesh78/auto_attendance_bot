@@ -1,5 +1,5 @@
 # auto_attendance_bot
-browser automation to mark attendance with python script
+browser automation to mark attendance using python bot
 
 
 setup.bat :  
