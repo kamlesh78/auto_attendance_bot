@@ -4,8 +4,8 @@ browser automation to mark attendance using python bot
 
 setup.bat :  
 This is just a setup file to automate all configuration needed for auto_attendace_bot to run.
-This batch script will create python virtual environment in the root directory i.e %USERPROFILE%.
-It will also install selenium lib by activating the virtual environment
+This batch script will create python virtual environment in the root directory i.e `%USERPROFILE%`.
+It will also install `selenium` lib by activating the virtual environment
 
 
 run.bat :                                                                                                                                                                
