@@ -2,8 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 
-username = "20561023"
-password = "Iamsongoku123456@"
+username = "your username here"
+password = "your password here"
 
 driver = webdriver.Firefox(executable_path=r'C:\driver\firefox\geckodriver.exe')
 driver.get("http://45.116.207.86/moodle/login/index.php")
