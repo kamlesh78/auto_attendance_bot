@@ -25,5 +25,5 @@ Note: You need to download webdriver for the web browser you are using and copy 
           
          
    IMP: if you are using Chrome web browser replace webdriver.Firefox with webdriver.Chrome in line 5 of autoattendance.py. 
-        Similary if you are using any ther browser replace Firefox with name of that browser.
+        Similary if you are using any other browser replace Firefox with name of that browser.
  
