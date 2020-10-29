@@ -5,7 +5,7 @@ from selenium.common.exceptions import NoSuchElementException
 username = "your username here"
 password = "your password here"
 
-driver = webdriver.Firefox(executable_path=r'C:\driver\firefox\geckodriver.exe')
+driver = webdriver.Firefox(executable_path=r'C:\driver\geckodriver.exe')
 driver.get("http://45.116.207.86/moodle/login/index.php")
  
 elem = driver.find_element_by_id("username").send_keys(username)
