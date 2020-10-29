@@ -9,12 +9,16 @@ It will also install `selenium` lib by activating the virtual environment.
 
 
 run.bat :                                                                                                                                                                
-This batch script will automate all the process of activating virtual environment and running the python scrip from your Desktop.                                               
+This batch script will automate all the process of activating virtual environment and running the python scrip from your Desktop.                                        
+
 You need to run this file each time you want to mark your attendance.
 
-
+                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                         
 autoattendance.py : python script to mark your attendace in gehu moddle.
-
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
 Note: You need to download webdriver for the web browser you are using and copy the web driver to `C:\driver\` directory(create directory driver in C:\ driver if not exist already).
 
 
