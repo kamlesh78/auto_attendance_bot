@@ -2,11 +2,14 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 
+username = "20561023"
+password = "Iamsongoku123456@"
+
 driver = webdriver.Firefox(executable_path=r'C:\driver\firefox\geckodriver.exe')
 driver.get("http://45.116.207.86/moodle/login/index.php")
  
-elem = driver.find_element_by_id("username").send_keys("20561023")
-elem2 = driver.find_element_by_id("password").send_keys("Iamsongoku123456@")
+elem = driver.find_element_by_id("username").send_keys(username)
+elem2 = driver.find_element_by_id("password").send_keys(password)
  
 
 driver.find_element_by_id("loginbtn").click()
