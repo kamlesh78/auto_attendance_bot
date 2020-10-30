@@ -28,7 +28,7 @@ Note: You need to download webdriver for the web browser you are using and copy 
           *** similarly you can download webdriver for your web browser supprorted by selenium***
           
          
-   IMP: if you are using Chrome web browser replace webdriver.Firefox with webdriver.Chrome in `line 8` and replace `C:\driver\geckodriver.exe` with `C:\driver\chromedriver.exe` of autoattendance.py. 
+   IMP: if you are using Chrome web browser replace webdriver.Firefox with webdriver.Chrome in `line 8` and replace `C:\driver\geckodriver.exe` with `C:\driver\chromedriver.exe` in autoattendance.py. 
         Similary if you are using any other browser replace Firefox with name of that browser.
         
         
