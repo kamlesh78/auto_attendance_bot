@@ -71,7 +71,18 @@ def tmc104():
 		print("Attendance already marked")
 		return
 	
-	
+# TMC 105
+def tmc105():
+	try:
+		driver.get("http://45.116.207.86/moodle/mod/attendance/view.php?id=1184")
+		d=driver.find_element_by_partial_link_text("Submit attendance")
+		d.send_keys(Keys.DOWN)
+		d.click()
+		driver.find_element_by_id("id_status_845").click()
+		driver.find_element_by_id("id_submitbutton").click()
+	except NoSuchElementException:
+		print("Attendance already marked")
+		return	
 # TMC 106		
 def tmc106():
 	try:
@@ -93,5 +104,6 @@ tmc101()
 tmc102()
 tmc103()
 tmc104()
+tmc105()
 tmc106()
  
