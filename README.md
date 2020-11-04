@@ -1,5 +1,5 @@
 # auto_attendance_bot
-browser automation to mark attendance using python bot
+browser automation to mark attendance using python bot for Graphic Era University
 
 
 setup.bat :  
