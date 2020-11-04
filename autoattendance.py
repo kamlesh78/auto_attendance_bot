@@ -56,7 +56,8 @@ def tmc103():
 		print("Attendance already marked")
 		return
 
-	
+		
+# TMC 104	
 def tmc104():
 	try:
 		driver.get("http://45.116.207.86/moodle/mod/attendance/view.php?id=1167")
@@ -70,12 +71,11 @@ def tmc104():
 		print("Attendance already marked")
 		return
 		
-# TMC 104
 
 
 
+#method 2
 """def tmc104_temp():
-
 		driver.get("http://45.116.207.86/moodle/course/view.php?id=26")
 		list = driver.find_elements_by_class_name("activity.attendance.modtype_attendance")
 		for l in list:
@@ -111,11 +111,6 @@ def tmc104():
 
 
 
-
-
-
-
-
 	
 # TMC 105
 def tmc105():
@@ -129,6 +124,8 @@ def tmc105():
 	except NoSuchElementException:
 		print("Attendance already marked")
 		return	
+		
+		
 # TMC 106		
 def tmc106():
 	try:
